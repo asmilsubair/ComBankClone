@@ -1,0 +1,359 @@
+Body {
+    background-color: rgb(215, 247, 247);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.container > li{
+    list-style: none;
+    padding: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-img{
+   
+    background-image: url("/images/searchimg.png");
+    background-repeat: no-repeat;
+    background-size: 20px 10px;   
+    text-align: right;    
+  
+    background-repeat: no-repeat;   
+    background-size:15px;
+    background-position: 15px;
+    font-size: .8rem;
+
+      
+}
+
+.font-size{
+    font-size:18px;
+    font-weight: bold;
+
+}
+
+.head1{
+    height: 100px;
+}
+.head2:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 38, 0);
+    /* padding-bottom: 20px; */
+}
+
+.logo{
+
+    
+    width: 200px;;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #f13444; 
+    color: rgb(252, 247, 247);
+    background-image: url("./images/box-arrow-in-right.svg");
+    background-repeat: no-repeat;   
+    background-size:30px;
+    background-position: 5px;
+    font-size: .8rem;
+    
+}
+
+.logo1{  
+    
+    position:absolute;
+    display:inline-flex;
+   
+    width:32px;
+    height:32px;
+    font-size: 1rem;
+    margin-left: 150px;
+    
+   
+    
+}
+
+.DigitalButton{
+   
+        display: inline-block;
+        content: "";
+        vertical-align: -.125em;
+        background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+        background-repeat: no-repeat;
+        background-size: 1rem 1rem;    
+        background-blend-mode:multiply;
+    
+}
+
+.lngbarleft{
+    display: flex;
+    flex-direction:row;
+}
+
+
+.carousel-caption{
+
+   
+    font-size:18px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    top:25%;
+    
+   
+}
+
+.carousel-caption > h1{
+    color:yellow;
+    font-size:3.0em;
+}
+
+
+.carousel-indicators > li{
+  
+    color:rgb(236, 236, 241);
+    text-indent: 0;    
+    text-align: center;
+    text-decoration: none;
+    padding-left: 0;
+    
+  
+}
+
+
+.stNavebar{
+
+    transition: top 3s;
+}
+
+.myWidth{
+    width:1200px;
+    padding:0;
+}
+
+.mytButton{
+
+
+
+}
+
+.btnHeight:hover
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,17,121,1) 0%, rgba(0,212,255,1) 100%);
+    color:white;
+}
+
+.btnHeight{
+   
+    height:150px;
+    width: 250px;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,17,121,1) 0%, rgba(0,212,255,1) 100%);
+ 
+    
+   
+   
+
+}
+
+.gred{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    height: 200px;
+    width:300px;
+
+}
+
+.animatedCircle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+   /* border:0;  */
+
+    position:fixed;
+    top:170px;
+    right:0px;
+    z-index: 1200;
+   
+    /* background-image: radial-gradient(red,blue,white); */
+
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+    animation-direction: reverse;
+       /* animation-fill-mode:forwards; */
+   
+   
+   
+}
+
+@keyframes example {  
+
+    0%{
+        background-image: url("./images/1.jpg");
+        background-size: 40px;
+        background-repeat: no-repeat;
+       background-position: center;
+    }
+    
+    50% {border-width: 20px;
+        background-image: url("./images/e.jpg");
+        background-size:40px;
+        background-repeat: no-repeat;
+        background-position: center;
+        }
+    75% {border-width: 10px;
+       
+    }
+    100% {border-width: 0px;
+    
+        background-image: url("./images/coin.svg");
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    /* 100% {background-color:red;  left:100px; top:20px;} */
+    from { border-color:transparent;
+        
+    }
+
+    to{border-color:rgb(214, 210, 210);
+    }
+/* #region */
+
+    /* from{background-image: url("./images/1.jpg");
+    background-size: 40px;  
+    background-repeat: no-repeat;
+    background-position: 20px;}
+
+    to{background-image:url("./images/e.jpg");
+    background-size: 40px; 
+    background-repeat: no-repeat;
+    background-position: 20px; } */
+       
+  }
+
+
+
+  /* //sdlflsdfld */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    position: relative;
+}
+
+.menu-icon {
+    cursor:pointer;
+}
+
+.menu-items {
+    display:none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu-items img {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+/* Show the menu items when the menu icon is clicked */
+#menuToggle:checked + .menu-items {
+    display: flex;
+    flex-direction: row;
+}
+
+
+  .carousel-item {
+    position: relative;
+  }
+  
+  .carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, transparent, rgb(56, 38, 172)); 
+    pointer-events: none;
+  }
+  
+
+
+ .zoom_btn{
+
+    /* width: 100px;
+      height: 100px; */
+      /* background-color: #043150;
+      color: #fff;
+      text-align: center;
+      line-height: 100px;
+      cursor: pointer; */
+      transition: transform 0.3s ease-out; /* Add a transition for the 'transform' property */
+      transform-origin: center center;
+ }
+
+ .zoom-btn:hover {
+    transform: scale1(1.2); /* Scale the div to 120% on hover */
+    
+   
+  }
+
+  .zoom-btn:not(:hover){
+    transform: scale(0.9); /* Scale the div to1. 120% on hover */
+  }
+
+  .tab-pane{
+
+    width: 100%;
+    height:400px;
+    background: radial-gradient(circle, #b3b4b4, #f2f5f3);
+   
+
+  }
+
+
+  .myCard{
+    position:relative;
+    display: block;
+    width:33%;
+    height:300px;
+    background-color:white;
+  }
+
+  .myCard:hover{
+    background-color:rgb(72, 72, 248);
+    color:white;
+  }
+
+  .myCardGold{
+
+    position: relative;
+    display:flex;
+    margin-left: -50px;
+    justify-content:center;
+   align-items: center;
+   margin-top:100px;
+   transform:rotate(-35deg);
+    
+  }
+
+.imgColorChange{
+    filter:grayscale(100%);
+}
